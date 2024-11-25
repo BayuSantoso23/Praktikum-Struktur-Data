@@ -1,7 +1,7 @@
 class Queue:
     def __init__(self):
-        self._head = None
-        self._tail = None
+        self._head = None #Pointer head
+        self._tail = None #Pointer tail
         self._count = 0
         
     def isEmpty(self):
@@ -33,4 +33,4 @@ class _QueueNode:
         self.data = data
         self.next = None
         
-    
+    # [2->3->4->0]
